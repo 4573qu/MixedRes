@@ -184,7 +184,6 @@ $
 
 [BLOVER_TOOLTIP]
 吹走所有气球僵尸和迷雾
-(该植物暂无技能)
 
 [SPLIT_PEA]
 双向射手
@@ -222,7 +221,6 @@ $
 
 [FLOWER_POT_TOOLTIP]
 让植物可以种植在房顶上
-(该植物暂未实装2技能)
 
 [KERNEL_PULT]
 玉米投手
@@ -268,6 +266,27 @@ $
 [RHODODENDRON_MAGNIFICUM_TOOLTIP]
 生成光环增强周围植物的攻击力
 (该植物暂未实装2技能)
+
+[SPEEDWALL]
+双身草
+
+[SPEEDWALL_TOOLTIP]
+根据情况决定进行不同的攻击
+兼顾近战和远程
+(该植物暂未实装2技能)
+
+[FIRE_SHROOM]
+火蘑菇
+
+[FIRE_SHROOM_TOOLTIP]
+使用火焰攻击敌人
+
+[FIRMACIST]
+冷杉
+
+[FIRMACIST_TOOLTIP]
+投掷果实，使僵尸中毒
+能提供使僵尸中毒更严重的增益
 
 [GATLING_PEA]
 机枪射手
@@ -3710,10 +3729,10 @@ PopCap 测试员
 音效
 
 [OPTIONS_WIDTH_HEIGHT]
-锁定宽高比
+开启屏幕拉伸
 
 [OPTIONS_FULL_SCREEN]
-始终保持在最前
+开启窗口置顶
 
 [LIMBO_PAGE_BUTTON]
 状态页
