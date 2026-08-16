@@ -2134,6 +2134,18 @@ YES
 [DIALOG_BUTTON_NO]
 NO
 
+[BUTTON_OK]
+OK
+
+[BUTTON_CANCEL]
+CANCEL
+
+[BUTTON_YES]
+YES
+
+[BUTTON_NO]
+NO
+
 [NEW_PLANT]
 YOU GOT A NEW PLANT!
 
@@ -3444,7 +3456,7 @@ This will permanently delete '%s' from the player roster!
 RENAME USER
 
 [NEW_USER]
-NREW USER
+NEW USER
 
 [LOGIN_USER]
 Sign in
@@ -3728,7 +3740,7 @@ Custom Preset
 Quick Features
 
 [DOUBLE_CLICK_TO_SET]
-Double-click to use
+(Double-click to set)
 
 [SAVE_TO_USER_PRESET_BUTTON]
 Save Preset
@@ -3746,34 +3758,34 @@ Delete Preset
 Delete {INDEX}
 
 [DIFFICULTY_PRESET_N]
-Preset - Simple Mode (N)
+Simple Mode (N)
 
 [DIFFICULTY_PRESET_M1]
-Preset - Normal Mode (M1)
+Normal Mode (M1)
 
 [DIFFICULTY_PRESET_M2]
-Preset - Hard Mode (M2)
+Hard Mode (M2)
 
 [DIFFICULTY_PRESET_H3]
-Preset - Extreme Mode (H3)
+Extreme Mode (H3)
 
 [DIFFICULTY_PRESET_M1H2]
-Preset - Harder Mode (M1H2)
+Harder Mode (M1H2)
 
 [DIFFICULTY_PRESET_M2H2]
-Preset - Expert Mode (M2H2)
+Expert Mode (M2H2)
 
 [DIFFICULTY_PRESET_NIH3]
-Preset - Mixed Mode (N+H3)
+Mixed Mode (N+H3)
 
 [DIFFICULTY_PRESET_M1IH3]
-Preset - Mixed Mode (M1+H3)
+Mixed Mode (M1+H3)
 
 [DIFFICULTY_PRESET_M2IH3]
-Preset - Mixed Mode (M2+H3)
+Mixed Mode (M2+H3)
 
 [DIFFICULTY_PRESET_7]
-Preset - 7-Level Challege Mode (7Mode)
+7-Level Challege Mode (7Mode)
 
 [PLEASE_CHOOSE_A_USER_PRESET]
 Please select a custom preset first.
@@ -3789,13 +3801,13 @@ If left blank, the default preset name will be used.
 Do you want to continue?
 
 [CURRENT_BASIC_MODE_N]
-Click to switch basic mode, current: N
+Base Mode: N
 
 [CURRENT_BASIC_MODE_M1]
-Click to switch basic mode, current: M1
+Base Mode: M1
 
 [CURRENT_BASIC_MODE_M2]
-Click to switch basic mode, current: M2
+Base Mode: M2
 
 [ICON_SWITCHER_HEADER]
 Switch Icons
@@ -3811,7 +3823,7 @@ Are you sure you want to do this?
 N Weight
 
 [MODE_7_TIP]
-7Mode Weight
+7M Weight
 
 [MODE_H1_TIP]
 H2 Weight
@@ -3820,7 +3832,7 @@ H2 Weight
 H2 Weight
 
 [OPTION_INTEGRATED]
-N Intergration (?)
+Base Merge (?)
 
 [PREV_PAGE_BUTTON]
 Previous
@@ -3835,7 +3847,7 @@ Save
 Export
 
 [IMPORT_DIFFICULTY]
-Importt
+Import
 
 [MESSAGE_REPLACE_UNSAVED_SKILLS]
 Your current settings have not been saved. 
@@ -3854,7 +3866,8 @@ Please select a valid preset.
 The preset limit has been reached
 
 [CONFIRM_DELETE]
-Are you sure you want to delete this?
+Are you sure you want 
+to delete this?
 
 [REPLACE_A_PRESET]
 Are you sure you want to overwrite {NAME}?
@@ -3903,6 +3916,7 @@ Text import failed or the text is invalid. Please try again.
 
 [SKILL_TEXT_GENERATED]
 The export code has been generated:
+
 
 [COPY_TO_CLIPBOARD]
 Copy to clipboard
@@ -3953,11 +3967,13 @@ Auto Collect
 ON
 
 [FEATURE_WIDE_SCREEN_OFF]
-Wide Screen (beta)
+Wide Screen
+(beta)
 OFF
 
 [FEATURE_WIDE_SCREEN_ON]
-Wide Screen (beta)
+Wide Screen
+(beta)
 ON
 
 [FEATURE_SCS_BUTTON_OFF]
