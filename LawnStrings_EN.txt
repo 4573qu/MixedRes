@@ -2361,6 +2361,9 @@ PAGE {PAGE}
 [RESTART_BUTTON]
 Restart
 
+[RESTART_LABEL]
+Restart
+
 [NEW_GAME_BUTTON]
 New Game
 
@@ -2770,7 +2773,7 @@ Credits
 [BACK_TO_GAME]
 Back To Game
 
-[RESTART_LEVEL]
+[RESTART_LEVEL_BUTTON]
 Restart Level
 
 [ADVICE_ZEN_GARDEN_PICK_UP_WATER]
@@ -3638,10 +3641,10 @@ Music
 Sound FX
 
 [OPTIONS_WIDTH_HEIGHT]
-Unlocks aspect ratio
+Free Ratio
 
 [OPTIONS_FULL_SCREEN]
-Keep window on top
+Keep on top
 
 [LIMBO_PAGE_BUTTON]
 Limbo Page
@@ -3934,7 +3937,7 @@ Please enter the text you want to import
 Your current settings have not been saved. Are you sure you want to leave this page?
 
 [RANDOM_CARD]
-Randomize
+RANDOMIZE
 
 [PLANT_SKILL_LOCKED]
 Plant tiers are locked and cannot be switched.
