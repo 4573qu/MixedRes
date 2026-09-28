@@ -1852,11 +1852,13 @@ $
 升级到 {SLOTS} 个卡片槽？
 
 [CRAZY_DAVE_1601]
-伙计，那些僵尸还在源源不断的来袭！
+伙计，这里是不是似曾相识？
 [CRAZY_DAVE_1602]
-这次，我想替你挑些植物！
+但看起来这里的阳光不是很充足啊！
 [CRAZY_DAVE_1603]
-我选……这三种！
+这些僵尸可真会挑时候！
+[CRAZY_DAVE_1604]
+祝你好运！
 
 [CRAZY_DAVE_1700]
 {NO_CLICK}我给你 ${SELL_PRICE}来换 {PLANT_TYPE}！
@@ -2149,19 +2151,19 @@ $
 [CRAZY_DAVE_5005]
 因为我疯了！！！{MOUTH_BIG_SMILE}
 
-[CRAZY_DAVE_6000]
+[CRAZY_DAVE_5100]
 看来夜晚的僵尸也不是你的对手！
-[CRAZY_DAVE_6001]
+[CRAZY_DAVE_5101]
 不过我猜它们不会善罢甘休的。
-[CRAZY_DAVE_6002]
-看看这张纸条！{MOUTH_SMALL_OH}
-[CRAZY_DAVE_6003]
+[CRAZY_DAVE_5102]
+{SHOW_NOTE}看看这张纸条！{MOUTH_SMALL_OH}
+[CRAZY_DAVE_5103]
 它们会发起更猛烈的进攻……
-[CRAZY_DAVE_6004]
+[CRAZY_DAVE_5104]
 ……就在你们战斗过的地方！
-[CRAZY_DAVE_6005]
-拿好这个按钮!{SCREAM2}
-[CRAZY_DAVE_6006]
+[CRAZY_DAVE_5105]
+{SHOW_HARDCONVERT}拿好这个按钮!
+[CRAZY_DAVE_5106]
 当你准备好的时候就去迎战他们吧！！！{MOUTH_BIG_SMILE}
 
 [MENU_BUTTON]
@@ -4452,8 +4454,53 @@ x%d
 冒险模式(邪恶)
 
 [WELCOME_ADVENTURE_HARD]
-欢迎来到邪恶模式！
+欢迎来到冒险模式(邪恶)！
 在这里你会遇到更难的冒险模式挑战！
 
 [WELCOME_ADVENTURE_HARD_CURRENTLY_HIDDEN]
 同时，你会获得更多的奖励！
+
+[NEED_MORE_ADVENTURE_LEVEL]
+继续推进冒险模式以解锁
+
+[NEED_MORE_MODE_UPDATE]
+该模式尚未推出，敬请期待……
+
+[ADVENTURE_HARD_LIMIT]
+冒险模式(邪恶)目前仅支持游玩到当前关卡！
+后续关卡敬请期待！
+
+[ADVENTURE_HARD_LIMIT_BY_ADV]
+冒险模式(邪恶)的进度不能超过冒险模式(普通)！
+继续推进冒险模式(普通)来解锁更多的冒险模式(邪恶)关卡！
+
+[SEE_HARD_BUTTON]
+查看冒险模式(邪恶)
+
+[CHOOSE_A_LEVEL_TO_JUMP]
+请输入你想跳到的关卡(X-X格式)
+只有冒险模式(普通)可以跳关
+
+[JUMP_LEVEL_FORMAT_ERROR]
+输入关卡格式有误！(X-X格式)
+
+[JUMP_LEVEL_PREFIX_ERROR]
+输入关卡大关必须为数字！
+
+[JUMP_LEVEL_PREFIX_EXCEED]
+输入关卡大关不在有效区间内！
+
+[JUMP_LEVEL_SUFFIX_ERROR]
+输入关卡小关必须为数字！
+
+[JUMP_LEVEL_SUFFIX_EXCEED]
+输入关卡小关不在1~10内！
+
+[LEVEL_STRICT_CHECK]
+关卡信息严格检查
+
+[ENEMY_LIST_INVALID_DATA_TYPE]
+僵尸列表含有不合法的数据类型
+
+[ENEMY_LIST_UNRECOGNIZED_ZOMBIE_TYPE]
+僵尸列表含有不合法的僵尸类型：{NAME}
