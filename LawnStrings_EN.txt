@@ -1846,13 +1846,13 @@ Bummer, dude!
 Upgrade to {SLOTS} seed slots?
 
 [CRAZY_DAVE_1601]
-伙计，这里是不是似曾相识？
+Doesn't it look a bit too familiar here, neighbor?
 [CRAZY_DAVE_1602]
-但看起来这里的阳光不是很充足啊！
+Though there doesn't seem to be much sunlight here!
 [CRAZY_DAVE_1603]
-这些僵尸可真会挑时候！
+These zombies sure know when to take action!
 [CRAZY_DAVE_1604]
-祝你好运！
+Good luck!
 
 [CRAZY_DAVE_1700]
 {NO_CLICK}I'll give you ${SELL_PRICE}0 for that {PLANT_TYPE}!
@@ -2121,45 +2121,45 @@ Hey neighbor! Got some new items for sale!
 {NO_CLICK}To use Wall-nut First Aid, simply plant a fresh new Wall-nut over the damaged one!
 
 [CRAZY_DAVE_4000]
-{NO_CLICK}{MOUTH_BIG_OH}你刚刚买到了最后一个植物！
+{NO_CLICK}{MOUTH_BIG_OH}You just bought the final plant!
 [CRAZY_DAVE_4001]
-{NO_CLICK}{SCREAM}你现在全植物制霸了！
+{NO_CLICK}{SCREAM}You're an all-plant haver, by gum!
 [CRAZY_DAVE_4002]
-{NO_CLICK}这样一个成就总得有个名字吧？
+{NO_CLICK}Why isn't there a word for that kind of achievement?
 [CRAZY_DAVE_4003]
-{NO_CLICK}有了… 
+{NO_CLICK}I've got it...
 [CRAZY_DAVE_4004]
-{NO_CLICK}{SHAKE}植物狂热！！！{MOUTH_BIG_SMILE}
+{NO_CLICK}{SHAKE}Morticulturalist!!!{MOUTH_BIG_SMILE}
 
 [CRAZY_DAVE_5000]
-嘿，{PLAYER_NAME}
+Hey, {PLAYER_NAME}
 [CRAZY_DAVE_5001]
-你刚刚击退了草坪上的僵尸们！
+You just fend off the zombie attacks!
 [CRAZY_DAVE_5002]
-我想是时候给你一些奖励了。
+I think it's time you get a 'lil somethin'
 [CRAZY_DAVE_5003]
-你现在可以去小游戏模式打更多的僵尸了！
+You can go to mini-game mode and fend off even more zombies!
 [CRAZY_DAVE_5004]
-你问我为什么这是奖励？
+Why'd I give you even more zombies to beat?
 [CRAZY_DAVE_5005]
-因为我疯了！！！{MOUTH_BIG_SMILE}
+Because I'm CRAAAAZY!!!!{MOUTH_BIG_SMILE}
 
 [CRAZY_DAVE_5100]
-看来夜晚的僵尸也不是你的对手！
+Looks like the zombies at night are no match for you!
 [CRAZY_DAVE_5101]
-不过我猜它们不会善罢甘休的。
+But I bet they won't give up that easily.
 [CRAZY_DAVE_5102]
-{SHOW_NOTE}看看这张纸条！{MOUTH_SMALL_OH}
+{SHOW_NOTE}Check out this note!{MOUTH_SMALL_OH}
 [CRAZY_DAVE_5103]
-它们会发起更猛烈的进攻……
+They're going to attack even harder...
 [CRAZY_DAVE_5104]
-……就在你们战斗过的地方！
+...right where you fought them before!
 [CRAZY_DAVE_5105]
-{SHOW_HARDCONVERT}拿好这个按钮！
+{SHOW_HARDCONVERT}Take this button!
 [CRAZY_DAVE_5106]
-{SHOW_FPEA}还有这个！
+{SHOW_FPEA}And this too!
 [CRAZY_DAVE_5107]
-当你准备好的时候就去迎战他们吧！！！{MOUTH_BIG_SMILE}
+NOW GO! TAKE ON THOSE HORDES WHEN YOU'RE READY!!!{MOUTH_BIG_SMILE}
 
 [MENU_BUTTON]
 Menu
@@ -2443,7 +2443,7 @@ Plant a fume-shroom first!
 Plant a lily pad first!
 
 [ADVICE_PLANT_NO_OVERLAPPING_TANGLEKELP]
-缠绕水草2技能不能种在缠绕水草1技能上！
+Tier 2 tangle kelps cannot be planted on tier 1 tangle kelp!
 
 [PLAYERS_HOUSE]
 {PLAYER}'s House
@@ -4247,7 +4247,7 @@ Zombie Skill Files (*.zsk)
 All Files (*.*)
 
 [FILE_FILTER_LEVEL]
-关卡文件(*.json)
+Level Files (*.json)
 
 [FILE_SAVE_SUCCESS]
 The file has been successfully exported
@@ -4357,92 +4357,92 @@ Button Desc.
 ON
 
 [CHOOSE_LEVEL_TO_ENTER]
-选择你要游玩的关卡
+Select the level you wish to play
 
 [LEVEL_INVALID_WITH_DESCRIPTION]
-关卡文件不合法，错误信息如下
+The level file is invalid, error message:
 
 [LEVEL_INVALID_NOT_IZ]
-关卡文件不合法，未标记关卡为IZ关卡
+The level file is invalid, it's not marked as an I, Zombie level
 
 [LEVEL_INVALID]
-关卡文件不合法
+Invalid level file
 
 [MODE_PAGE_ADVENTURE]
-冒险模式
+Adventure
 
 [MODE_PAGE_MINIGAME]
-小游戏模式
+Mini-Game
 
 [MODE_PAGE_STANDOFF]
-对峙模式
+Standoff
 
 [MODE_PAGE_CAMPAIGN]
-征战模式
+Campaign
 
 [MODE_PAGE_TOWER]
-爬塔模式
+Tower
 
 [MODE_PAGE_PLOT]
-剧情模式
+Story
 
 [THERE_IS_A_SAVEDATA]
-这一关有存档
+Saved game exist
 
 [CONFIRM_DELETE_SAVEDATA]
-你确定删除这一关的存档吗？
+Are you sure you want to delete the saved game for this level?
 
 [MODE_ADVENTURE_HARD]
-冒险模式(邪恶)
+Adventure (Evil)
 
 [WELCOME_ADVENTURE_HARD]
-欢迎来到冒险模式(邪恶)！
-在这里你会遇到更难的冒险模式挑战！
+Welcome to adventure (evil)!
+Here, you'll face tougher challenges!
 
 [WELCOME_ADVENTURE_HARD_CURRENTLY_HIDDEN]
-同时，你会获得更多的奖励！
+At the same time, you'll obtain more rewards!
 
 [NEED_MORE_ADVENTURE_LEVEL]
-继续推进冒险模式以解锁
+Play more adventure to unlock more content
 
 [NEED_MORE_MODE_UPDATE]
-该模式尚未推出，敬请期待……
+Coming soon, stay tuned...
 
 [ADVENTURE_HARD_LIMIT]
-冒险模式(邪恶)目前仅支持游玩到当前关卡！
-后续关卡敬请期待！
+Adventure (Evil) only include up to the current level!
+More levels coming soon, stay tuned!
 
 [ADVENTURE_HARD_LIMIT_BY_ADV]
-冒险模式(邪恶)的进度不能超过冒险模式(普通)！
-继续推进冒险模式(普通)来解锁更多的冒险模式(邪恶)关卡！
+Your progress in adventure (evil) can only go as far as your progres in adventure (normal)!
+Play more adventure (normal) to unlock more adventure (evil)!
 
 [SEE_HARD_BUTTON]
-查看冒险模式(邪恶)
+View Adventure (Evil)
 
 [CHOOSE_A_LEVEL_TO_JUMP]
-请输入你想跳到的关卡(X-X格式)
-只有冒险模式(普通)可以跳关
+Enter the level you wish to skip to (Format: X-X)
+Only adventure (normal) allows level skipping
 
 [JUMP_LEVEL_FORMAT_ERROR]
-输入关卡格式有误！(X-X格式)
+Invalid level format! (Format: X-X)
 
 [JUMP_LEVEL_PREFIX_ERROR]
-输入关卡大关必须为数字！
+The world number must be a number!
 
 [JUMP_LEVEL_PREFIX_EXCEED]
-输入关卡大关不在有效区间内！
+The world number is out of the valid range!
 
 [JUMP_LEVEL_SUFFIX_ERROR]
-输入关卡小关必须为数字！
+The level number must be a number!
 
 [JUMP_LEVEL_SUFFIX_EXCEED]
-输入关卡小关不在1~10内！
+The level number must be between 1 and 10!
 
 [LEVEL_STRICT_CHECK]
-关卡信息严格检查
+Strict Level Info Check
 
 [ENEMY_LIST_INVALID_DATA_TYPE]
-僵尸列表含有不合法的数据类型
+The zombie list contains an invalid data type
 
 [ENEMY_LIST_UNRECOGNIZED_ZOMBIE_TYPE]
-僵尸列表含有不合法的僵尸类型：{NAME}
+The zombie list contains an invalid zombie type: {NAME}
