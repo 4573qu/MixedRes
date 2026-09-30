@@ -14,21 +14,24 @@ $
 Peashooter
 
 [PEASHOOTER_TOOLTIP]
-向敌人发射豌豆，拥有环绕自己的豌豆卫星
+Shoots peas at the enemy
+Orbited by pea satellites
 
 [PEASHOOTER_TOOLTIP2]
-反向发射豌豆，豌豆碰到地图边缘会反弹，并有概率强化
+shoots peas backwards
+Peas are reflected from the house
+Peas sometimes upgrade from reflecting
 
 [SUNFLOWER]
 Sunflower
 
 [SUNFLOWER_TOOLTIP]
-为你提供更多阳光
-(该植物暂无技能)
+Gives you additional sun
+(Does not have tier 2)
 
 [SUNFLOWER_TOOLTIP2]
-为你提供更多阳光
-(该植物暂无技能)
+Gives you additional sun
+(Does not have tier 2)
 
 [CHERRY_BOMB]
 Cherry Bomb
@@ -37,72 +40,74 @@ Cherry Bomb
 Blows up all zombies in an area
 
 [CHERRY_BOMB_TOOLTIP2]
-连续爆炸20次，每次爆炸伤害较低
+Explodes 20 times, dealing low damage each
 
 [WALL_NUT]
 Wall-nut
 
 [WALL_NUT_TOOLTIP]
 Blocks off zombies and protects your other plants
-临死或被碾压时跳起来砸击僵尸
+Squashes zombies when eaten or smashed
 
 [WALL_NUT_TOOLTIP2]
-能够抵挡3行僵尸的啃咬
-临死时跳起来砸击僵尸
+Blocks off 3 lanes of zombies and protects your other plants
+Squashes zombies when eaten 
 
 [REPEATER]
 Repeater
 
 [REPEATER_TOOLTIP]
-Fires two peas at a time，有概率发射更多豌豆
+Fires two peas at a time, sometimes more
 
 [REPEATER_TOOLTIP2]
-一次发射两颗豌豆，子弹飞行时有概率获得强化
+Fires two peas at a time,
+peas sometimes upgrades, chance increase with distance
 
 [POTATO_MINE]
 Potato Mine
 
 [POTATO_MINE_TOOLTIP]
 Explodes on contact, but takes time to arm itself
-出土时向前方投掷一个土豆地雷种子
+Throws a copy of itself forward when armed
 
 [POTATO_MINE_TOOLTIP2]
-敌人碰到时进行较大范围的爆炸，但安放后需要一定时间启动
+Explodes in a medium area on contact,
+but takes time to arm itself
 
 [SNOW_PEA]
 Snow Pea
 
 [SNOW_PEA_TOOLTIP]
 Shoots frozen peas that damage and slow the enemy
-有概率发射造成更强减速的穿透子弹冰刃
+Sometimes fires ice blades that slows a group of zombies
 
 [SNOW_PEA_TOOLTIP2]
-射出寒冰豌豆，伤害敌人的同时减慢敌人速度
-有概率向更多方向发射子弹，这些子弹会追踪僵尸
+Shoots frozen peas that damage and slow the enemy
+Sometimes fires 6 frozen peas that home zombies after awhile
 
 [CHOMPER]
 Chomper
 
 [CHOMPER_TOOLTIP]
 Devours a zombie whole, but is vulnerable while chewing
-奇数次啃咬后立刻完成吞咽
+Immediately devours every other zombie
 
 [CHOMPER_TOOLTIP2]
-持续啃咬前方的僵尸，一次可以攻击2个僵尸
+Chomps up to 2 zombies from a distance
 
 [PUFF_SHROOM]
 Puff-shroom
 
 [PUFF_SHROOM_TOOLTIP]
 Shoots short-ranged spores at the enemy
-可以种在屋顶上
-十分脆弱，受到啃咬时立刻死亡并给予少量阳光
-僵尸靠近时攻击获得强化
+Can be planted on the roof
+Gets trampled by the enemy
+Fires 3 slowing spores when enemy is close
 
 [PUFF_SHROOM_TOOLTIP2]
-在超短距离内向敌人发射可以穿透的星星
-可以种在屋顶上
-十分脆弱，受到啃咬时立刻死亡并给予少量阳光
+Shoots penetrating stars at the enemy
+Can be planted on the roof
+Gets trampled by the enemy
 
 [SUN_SHROOM]
 Sun-shroom
@@ -111,17 +116,18 @@ Sun-shroom
 Gives small sun at first and normal sun later
 
 [SUN_SHROOM_TOOLTIP2]
-种植后立即生长，随后生产阳光并消失
+Grows, gives 100 sun, then immediately disappears
 
 [FUME_SHROOM]
 Fume-shroom
 
 [FUME_SHROOM_TOOLTIP]
-Shoots fumes that can pass through screen doors，攻击距离很长
+Shoots long-range fumes that can pass through screen doors
 
 [FUME_SHROOM_TOOLTIP2]
-喷射可以穿过铁栅门的减速气泡，攻击距离较短
-每5次攻击召唤1只小鬼为你作战
+Shoots short-range fumes that can pass through screen doors
+and slow the enemy
+Spawns a hypnotized imp every 5th attack
 
 [GRAVE_BUSTER]
 Grave Buster
@@ -131,7 +137,7 @@ Plant it on a grave to remove the grave
 (Tier 2 currently not implemented)
 
 [GRAVE_BUSTER_TOOLTIP2]
-该植物暂未实装2技能
+(Tier 2 currently not implemented)
 
 [HYPNO_SHROOM]
 Hypno-shroom
@@ -140,28 +146,28 @@ Hypno-shroom
 Makes a zombie fight for you
 
 [HYPNO_SHROOM_TOOLTIP2]
-召唤一只橄榄球僵尸为你作战，随后自身消失
+Spawns a football zombie and make it fight for you
 
 [SCAREDY_SHROOM]
 Scaredy-shroom
 
 [SCAREDY_SHROOM_TOOLTIP]
 Long-ranged shooter that hides when enemies get near it
-有概率发射寒冰豌豆
+Sometimes fires frozen peas
 
 [SCAREDY_SHROOM_TOOLTIP2]
-发射远程孢子，但敌人靠近时会胆小地缩进地里
-从地里生长回来后发射更强的子弹
+Long-ranged shooter that hides when enemies get near it
+Upgrades after getting scared
 
 [ICE_SHROOM]
 Ice-shroom
 
 [ICE_SHROOM_TOOLTIP]
 Temporarily immobilizes all zombies on the screen
-(该植物暂未实装1技能的额外效果)
+(has a currently unimplemented ability)
 
 [ICE_SHROOM_TOOLTIP2]
-暂时使画面中的全部僵尸都获得超高额的减速
+Temporarily slows all zombies on the screen for a long time
 
 [DOOM_SHROOM]
 Doom-shroom
@@ -170,8 +176,8 @@ Doom-shroom
 Destroys a large area, leaving a crater in its wake
 
 [DOOM_SHROOM_TOOLTIP2]
-造成大范围毁灭效果，并消除原地的弹坑和墓碑
-只能种在墓碑上
+Destroys a large area, leaving a crater in its wake
+Must be planted on graves
 
 [LILY_PAD]
 Lily Pad
@@ -180,7 +186,7 @@ Lily Pad
 Lets you plant non-aquatic plants on top of it
 
 [LILY_PAD_TOOLTIP2]
-可以将植物变为翻倍数量的卡牌
+Lets you duplicate a non-aquatic plant on top of it
 
 [SQUASH]
 Squash
@@ -189,140 +195,141 @@ Squash
 Squashes zombies
 
 [SQUASH_TOOLTIP2]
-变为菜问，持续攻击身旁的僵尸
+Becomes bonk choy
 
 [THREEPEATER]
 Threepeater
 
 [THREEPEATER_TOOLTIP]
 Shoots peas in three lanes
-在边路时发射更多子弹
+Shoots an extra pea in the middle lane
+if planted on the topmost or bottommost lane
 
 [THREEPEATER_TOOLTIP2]
-点击或鼠标悬浮在身上时获得一次性的强化
-一段时间未获得强化会变得较弱，获得强化后复原
+Shoots peas in three lanes
+Becomes boosted when clicked or hovered
+Gradually becomes weaker without boosts
 
 [TANGLE_KELP]
 Tangle Kelp
 
 [TANGLE_KELP_TOOLTIP]
 Aquatic plant that pulls a zombie underwater
-可以在上面种植植物
+Lets you plant non-aquatic plants on top of it
 
 [TANGLE_KELP_TOOLTIP2]
-只能种在陆地、莲叶或花盆上
-每隔一段时间召唤一个血量较低的坚果
+Becomes infi-nut
 
 [JALAPENO]
 Jalapeno
 
 [JALAPENO_TOOLTIP]
 Destroys an entire lane of zombies
-(该植物暂未实装1技能的额外效果)
+(has a currently unimplemented ability)
 
 [JALAPENO_TOOLTIP2]
-点燃一整行，在接下来的8秒内持续灼烧僵尸
+Burns an entire lane of zombies
 
 [SPIKEWEED]
 Spikeweed
 
 [SPIKEWEED_TOOLTIP]
 Pops tires and hurts zombies that step on it
-有概率减速上面的僵尸
+Sometimes slows zombies
 
 [SPIKEWEED_TOOLTIP2]
-能扎破轮胎，也能刺伤踏在上面的僵尸
-可以攻击天空中的敌人
+Pops tires and hurts zombies that step on it
+Can attack balloon zombies
 
 [TORCHWOOD]
 Torchwood
 
 [TORCHWOOD_TOOLTIP]
 Peas that pass through it turn into fireballs
-穿过火炬树桩的火弹会变成毒弹
-穿过火炬树桩的冰豆会变成冻豆
-反弹周围的僵尸豌豆
+Fireballs that pass through it turn into poisonous peas
+Frozen peas that pass through it turns into frost peas
+Bounces back zombies' peas
 
 [TORCHWOOD_TOOLTIP2]
-穿过火炬树桩的豌豆会变成火弹
-穿过火炬树桩的冰豆会变成豌豆
-灼烧经过自身上方的僵尸
+Peas that pass through it turn into fireballs
+Burns away any zombies that can go past it
 
 [TALL_NUT]
 Tall-nut
 
 [TALL_NUT_TOOLTIP]
 Heavy-duty wall that can't be vaulted over
-濒死时爆炸
+Explodes when eaten
 (Tier 2 currently not implemented)
 
 [TALL_NUT_TOOLTIP2]
-该植物暂未实装2技能
+Tier 2 currently not implemented
 
 [SEA_SHROOM]
 Sea-shroom
 
 [SEA_SHROOM_TOOLTIP]
 Aquatic plant that shoots short-ranged spores
-十分脆弱，死亡时召唤自身卡牌
+Gets trampled by the enemy
+Drops its own seed packet when trampled 
 (Tier 2 currently not implemented)
 
 [SEA_SHROOM_TOOLTIP2]
-该植物暂未实装2技能
+Tier 2 currently not implemented
 
 [PLANTERN]
 Plantern
 
 [PLANTERN_TOOLTIP]
 Lights up an area, letting you see through fog
-可以生产3次阳光
+Produces 3 sun
 
 [PLANTERN_TOOLTIP2]
-立即对各类僵尸施加各类效果
+Inflicts a special effect on certain zombies
 
 [CACTUS]
 Cactus
 
 [CACTUS_TOOLTIP]
 Shoots spikes that can pop balloons
-尖刺对没有防具的敌人伤害翻倍
+dealing double damage to unarmored zombies
 
 [CACTUS_TOOLTIP2]
-发射尖刺
-血量较高，不会主动长高
-受到啃食时对全场敌人造成反伤
+Shoots spikes, does not reach to pop balloons
+Becomes a wall that damages all zombies on the lawn when damaged
 
 [BLOVER]
 Blover
 
 [BLOVER_TOOLTIP]
-吹走所有体型较轻的僵尸和迷雾
-对不能吹走的僵尸造成小量伤害
+Blows away all lightweight zombies and fog
+Deal damage to those that weren't blown away
 
 [BLOVER_TOOLTIP2]
-推迟下一波次的到来
-使本波次不会因为场上僵尸血量较少而提前刷新
+Delay the next wave of zombies
+Prevent the next wave to spawn 
+even if the zombie health threshold is reached
 
 [SPLIT_PEA]
 Split Pea
 
 [SPLIT_PEA_TOOLTIP]
 Shoots peas forward and backwards
-场上不存在小推车时，使自身可以点燃豌豆
+shoots fireballs if the lawnmower is lost
 (Tier 2 currently not implemented)
 
 [SPLIT_PEA_TOOLTIP2]
-该植物暂未实装2技能
+Tier 2 currently not implemented
 
 [STARFRUIT]
 Starfruit
 
 [STARFRUIT_TOOLTIP]
-向五个方向发射可以穿透敌人的小星星
+Shoots penetrating stars in 5 directions
 
 [STARFRUIT_TOOLTIP2]
-向五个方向发射小星星
-场上2技能杨桃数量越多，发射的子弹越多
+Shoots stars in 5 directions
+Shoots more stars the more tier 2 starfruits on the lawn
 
 [PUMPKIN]
 Pumpkin
@@ -331,10 +338,9 @@ Pumpkin
 Protects plants that are within its shell
 
 [PUMPKIN_TOOLTIP2]
-保护被套在里面的植物
-如果里面的植物不是防御类植物
-则立即将自身血量转移至该植物
-自身消失并为该植物放置一个扶梯
+When planted on non-wall plants, 
+gives extra toughness, 
+puts a ladder, then disappears
 
 [MAGNET_SHROOM]
 Magnet-shroom
@@ -343,17 +349,17 @@ Magnet-shroom
 Removes helmets and other metal objects from zombies
 
 [MAGNET_SHROOM_TOOLTIP2]
-吸走植物僵尸的头部或僵尸拿着的植物
+Removes zombotany heads and other non-metal objects from zombies
 
 [CABBAGE_PULT]
 Cabbage-pult
 
 [CABBAGE_PULT_TOOLTIP]
-Hurls cabbages at the enemy
-卷心菜对有防具的敌人伤害翻倍
+Hurls cabbages at the enemy,
+dealing double damage to armored zombies
 
 [CABBAGE_PULT_TOOLTIP2]
-向敌人投掷冰卷心菜
+Hurls frozen cabbages at the enemy
 
 [FLOWER_POT]
 Flower Pot
@@ -362,72 +368,69 @@ Flower Pot
 Lets you plant on the roof
 
 [FLOWER_POT_TOOLTIP2]
-让植物可以种在屋顶上
-根据场上僵尸数量返还阳光
+Lets you plant on the roof
+Gives sun based on howe many zombies there are
 
 [KERNEL_PULT]
 Kernel-pult
 
 [KERNEL_PULT_TOOLTIP]
-Flings corn kernels and butter at zombies
-可以攻击气球僵尸
+Flings corn kernels and butter at zombies,
+including balloon zombies
 
 [KERNEL_PULT_TOOLTIP2]
-向僵尸投掷黄油块或玉米棒
-攻击间隔很长
+Flings butter and corn cobs at zombies, slowly
 
 [GARLIC]
 Garlic
 
 [GARLIC_TOOLTIP]
 Diverts zombies into other lanes
-濒死时小范围爆炸
+Explodes in a small area when eaten
 
 [GARLIC_TOOLTIP2]
-吸引周围的撑杆和车类敌人
-并使撑杆失去杆子
+Attracts pole vaulting zombies and zombies with vehicles from nearby lanes 
+Removes pole from pole vaulting zombies
 
 [UMBRELLA_LEAF]
 Umbrella Leaf
 
 [UMBRELLA_LEAF_TOOLTIP]
-反弹周围的蹦极僵尸和篮球车僵尸以保护植物
-反弹时给周围植物回血
+Protects nearby plants from bungees and catapults
+Heals the plant that was protected
 
 [UMBRELLA_LEAF_TOOLTIP2]
-反弹周围的篮球车僵尸和被扔过来的僵尸以保护植物
-反弹时给周围植物回血
+Protects nearby plants from catapults and launched zombies
+Heals the plant that was protected
 
 [MARIGOLD]
 Marigold
 
 [MARIGOLD_TOOLTIP]
-根据场上情况提供支援
+Does things based on the situation
 (Tier 2 currently not implemented)
 
 [MARIGOLD_TOOLTIP2]
-该植物暂未实装2技能
+Tier 2 currently not implemented
 
 [MELON_PULT]
-MelonPult
+Melon-pult
 
 [MELON_PULT_TOOLTIP]
 Does heavy damage to groups of zombies
-(该植物暂未实装1技能的额外效果)
+(has a currently unimplemented ability)
 
 [MELON_PULT_TOOLTIP2]
-投出西瓜，重重打击成群的僵尸
-优先攻击较远的僵尸
+Does heavy damage to groups of backmost zombies
 
 [TURNIT]
 Turnit
 
 [TURNIT_TOOLTIP]
-Plant on a plant to change its tier
-有短暂的前摇
+Has cooldown animation, then change a plant's tier here (?)
 
 [TURNIT_TOOLTIP2]
-放在植物上，转换所在格子上所有植物的技能
+Changes the tier of all plants here (TBD)
 
 [RHODODENDRON_MAGNIFICUM]
 Rhododendron Magnificum
@@ -437,91 +440,91 @@ Boost the strength of nearby plants
 (Tier 2 currently not implemented)
 
 [RHODODENDRON_MAGNIFICUM_TOOLTIP2]
-该植物暂未实装2技能
+Tier 2 currently not implemented
 
 [SPEEDWALL]
 Speedwall
 
 [SPEEDWALL_TOOLTIP]
 Has melee and ranged attacks,
-change attacks based on situation
+change attacks based on the situation
 (Tier 2 currently not implemented)
 
 [SPEEDWALL_TOOLTIP2]
-该植物暂未实装2技能
+Tier 2 currently not implemented
 
 [FIRE_SHROOM]
 Fire-shroom
 
 [FIRE_SHROOM_TOOLTIP]
-移动火焰对小范围的敌人造成伤害
+Spreads fire to damage groups of zombies
 
 [FIRE_SHROOM_TOOLTIP2]
-使用火焰攻击敌人造成单体伤害
+Burns a zombie at a time
 
 [FIRMACIST]
 Firmacist
 
 [FIRMACIST_TOOLTIP]
-Throw poisonous fruits at enemies,
-能提供使敌人中毒更严重的增益
-对于被影响的敌人造成更强的效果
+Throw poisonous fruits at the enemy,
+providing a buff that makes poisoning more severe (?)
+Poisoned enemies take more poison damage
 
 [FIRMACIST_TOOLTIP2]
-投掷果实，使敌人剧烈中毒
-优先选择未中毒的敌人
+Throw poisonous fruits at the enemy,
+targeting non-poisoned enemy
 
 [FOLLOWING_PEA]
-追踪射手
+Homing Pea
 
 [FOLLOWING_PEA_TOOLTIP]
-追踪射手可以自动瞄准僵尸攻击
-可以种在各种白卡豌豆上或将各种白卡豌豆种在自身身上获得增益
-最多可以同时拥有两种增益
-(裂荚射手暂不生效)
-(该植物暂未实装2技能)
+Shoots peas that attack any lane
+can be planted on, or plant on non-upgrade pea-shooting plants, to enhance itself
+Can be enhanced up to 2 times
+(Split Pea is currently not supported)
+(Tier 2 currently not implemented)
 
 [FOLLOWING_PEA_TOOLTIP2]
-该植物暂未实装2技能
+Tier 2 currently not implemented
 
 [MOIL_SUNFLOWER]
-辛劳油葵
+Toiling Sunflower
 
 [MOIL_SUNFLOWER_TOOLTIP]
-生产阳光
-使周围的阳光类植物生产的阳光价值提高（不可叠加）
-(该植物暂未实装2技能)
+Gives you additional sun
+Gives more sun the more sun-producing plant near it there are
+(Does not stack)
+(Tier 2 currently not implemented)
 
 [MOIL_SUNFLOWER_TOOLTIP2]
-该植物暂未实装2技能
+Tier 2 currently not implemented
 
 [BOWLING_WALLNUT]
-保龄球坚果
+Bowling Wall-nut
 
 [BOWLING_WALLNUT_TOOLTIP]
-可以直接作为保龄球扔出
-或种在坚果上双击或濒死时开始滚动
-撞击敌人时有概率产出自身卡片
+Rolls into the enemies
+Can be planted on wall-nuts, making them roll when eaten or double-clicked
+Sometimes drop its own seed packets when hitting the enemies
 
 [BOWLING_WALLNUT_TOOLTIP2]
-可以直接作为保龄球扔出
-或种在坚果上双击或濒死时开始滚动
-撞击敌人时使敌人中毒
-
+Rolls into the enemies
+Can be planted on wall-nuts, making them roll when eaten or double-clicked
+Poison any enemy it hits
 
 [GATLING_PEA]
-GatlingPea
+Gatling Pea
 
 [GATLING_PEA_TOOLTIP]
-一次射出四颗豌豆或八颗豌豆
-(需要双发射手1技能)
+Shoots four or eight peas at a time
+(requires tier 1 repeater)
 
 [GATLING_PEA_TOOLTIP2]
-一次发射4颗会散开造成群体伤害的豌豆
-(需要双发射手2技能)
+Shoots 4 scattered peas at a time
+(requires tier 2 repeater)
 
 [TWIN_SUNFLOWER]
-TwinSunflower
+Twin Sunflower
 
 [TWIN_SUNFLOWER_TOOLTIP]
 Gives twice as much sun as a sunflower
@@ -534,16 +537,17 @@ Gives twice as much sun as a sunflower
 (Does not have tier 2)
 
 [GLOOM_SHROOM]
-GloomShroom
+Gloom-shroom
 
 [GLOOM_SHROOM_TOOLTIP]
-向周围大范围喷射大量浓烟
-(需要大喷菇1技能)
+Releases heavy fumes in a medium area around itself
+(requires tier 1 fume-shroom)
 
 [GLOOM_SHROOM_TOOLTIP2]
-向周围发射使敌人减速的少量浓烟
-每4次攻击召唤1只小鬼为你作战
-(需要大喷菇2技能)
+Releases light fumes in a medium area around itself 
+and slow the enemies
+Spawns hypnotized imps every 4th attack
+(requires tier 2 fume-shroom)
 
 [CATTAIL]
 Cattail
@@ -559,31 +563,31 @@ Attacks any lane and shoots down balloon zombies
 (Does not have tier 2)
 
 [WINTER_MELON]
-WinterMelon
+Winter Melon
 
 [WINTER_MELON_TOOLTIP]
 Does heavy damage and slows groups of zombies
-(requires melon-pult)
-(该植物暂未实装1技能的额外效果)
+(requires tier 1 melon-pult)
+(has a currently unimplemented ability)
 
 [WINTER_MELON_TOOLTIP2]
-重重打击成群的僵尸，同时瞄准最前方和最后方的僵尸
-(需要西瓜投手2技能)
+Does heavy damage and slows groups of frontmost and backmost zombies
+(requires tier 2 melon-pult)
 
 [GOLD_MAGNET]
-GoldMagnet
+Gold Magnet
 
 [GOLD_MAGNET_TOOLTIP]
-吸走铁桶、头盔或者其它金属物品
-吸附完成后会给出一些钱币
-吸附一段时间后会闪烁，点击可以提前完成
-(需要磁力草1技能)
+Removes helmets and other metal objects from zombies
+Gives coins when recharged
+Click when flash to recharge it early
+(requires tier 1 magnet-shroom)
 
 [GOLD_MAGNET_TOOLTIP2]
-吸走植物僵尸的头部或僵尸拿着的植物
-吸附完成后会给出一些钱币
-吸附一段时间后会闪烁，点击可以提前完成
-(需要磁力草2技能)
+Removes zombotany heads and other non-metal objects from zombies
+Gives coins when recharged
+Click when flash to recharge it early
+(requires tier 2 magnet-shroom)
 
 [SPIKEROCK]
 Spikerock
@@ -599,7 +603,7 @@ Pops multiple tires and damages zombies that walk over it
 (Does not have tier 2)
 
 [COB_CANNON]
-CobCannon
+Cob Cannon
 
 [COB_CANNON_TOOLTIP]
 Click to launch deadly cobs of corn
@@ -618,15 +622,15 @@ Imitater
 Lets you have two of the same plant
 
 [COFFEE_BEAN]
-咖啡豆
+Coffee Bean
 
 [COFFEE_BEAN_TOOLTIP]
 Plant it on a mushroom to wake it up
 (Tier 1, direction changing, currently not implemented)
 
 [COFFEE_BEAN_TOOLTIP2]
-放在植物头上，就能把植物转化为阳光
-阳光数等价于该植物价值的2倍
+Plant it on a plant to turn them into sun
+Gives sun equal twice the cost of the plant
 
 [EXPLODE_O_NUT]
 Explode-o-nut
@@ -732,40 +736,40 @@ Imp
 Dr. Zomboss
 
 [PEA_HEAD_ZOMBIE]
-豌豆射手僵尸
+Peashooter Zombotany
 
 [WALLNUT_HEAD_ZOMBIE]
-坚果墙僵尸
+Wall-nut Zombotany
 
 [JALAPENO_HEAD_ZOMBIE]
-火爆辣椒僵尸
+Jalapeno Zombotany
 
 [GATLING_HEAD_ZOMBIE]
-机枪射手僵尸
+Gatling Pea Zombotany
 
 [SQUASH_HEAD_ZOMBIE]
-窝瓜僵尸
+Squash Zombotany
 
 [TALLNUT_HEAD_ZOMBIE]
-高坚果僵尸
+Tall-nut Zombotany
 
 [PEA_HEAD5_ZOMBIE]
-豌豆射手僵尸'5'
+Peashooter Zombotany '5'
 
 [GATLING_HEAD5_ZOMBIE]
-机枪射手僵尸'5'
+Gatling Pea Zombotany '5'
 
 [WALLNUT_HEAD5_ZOMBIE]
-坚果墙僵尸'5'
+Wall-nut Zombotany '5'
 
 [JALAPENO_HEAD5_ZOMBIE]
-火爆辣椒僵尸'5'
+Jalapeno Zombotany '5'
 
 [SQUASH_HEAD5_ZOMBIE]
-窝瓜僵尸'5'
+Squash Zombotany '5'
 
 [TALLNUT_HEAD5_ZOMBIE]
-高坚果僵尸'5'
+Tall-nut Zombotany '5'
 
 [DOG_WALKING_ZOMBIE]
 Dog Walking Zombie
@@ -848,7 +852,7 @@ tell him to "stay frosty." Snow Pea just rolls his eyes. He's heard 'em all.
 [CHOMPER_DESCRIPTION]
 Chompers can devour a zombie whole, but they are vulnerable while chewing.
 {SHORTLINE}
-{KEYWORD}Range:{STAT} very short/{STAT}2技能：较短
+{KEYWORD}Range:{STAT} tier 1: very short/{STAT}tier 2: short
 {KEYWORD}Special:{STAT} long delay between chomps
 {SHORTLINE}
 {SKILL}Tier 1: immediately devours every other zombie
@@ -864,8 +868,8 @@ Puff-shrooms are cheap, but can only fire a short distance.
 {KEYWORD}Range:{STAT} short
 {NOCTURNAL}Sleeps during the day
 {SHORTLINE}
-{SKILL}可以种植在屋顶上，攻击速度略微提升，受到啃咬时立刻死亡并给予少量阳光
-{SKILL}1技能：平射子弹伤害略微下降，僵尸靠近时改为发射3颗带有减速效果的孢子
+{SKILL}Can be planted on the roof, gets trampled by the enemy, drops small suns when trampled
+{SKILL}Tier 1: slight damage decrease, fires 3 slowing spores when enemy is close
 {SKILL}Tier 2: slight range decrease, fires penetrating stars
 {SHORTLINE}
 {FLAVOR}"I only recently became aware of the existence of zombies," says Puff-shroom. "Like many fungi, 
@@ -874,7 +878,7 @@ I'd just assumed they were fairy tales or movie monsters. This whole experience 
 [SUN_SHROOM_DESCRIPTION]
 Sun-shrooms give small sun at first and normal sun later.
 {SHORTLINE}
-{NOCTURNAL}(仅1技能)Sleeps during the day
+{NOCTURNAL}(Only tier 1) Sleeps during the day
 {SHORTLINE}
 {SKILL}Tier 2: grows, gives 100 sun, then immediately disappears
 {SHORTLINE}
@@ -910,7 +914,7 @@ When eaten, Hypno-shrooms will make a zombie turn around and fight for you.
 {SHORTLINE}
 {KEYWORD}Usage:{STAT} single use, on contact
 {KEYWORD}Special:{STAT} makes a zombie fight for you
-{NOCTURNAL}(仅1技能)Sleeps during the day
+{NOCTURNAL}(Only tier 1) Sleeps during the day
 {SHORTLINE}
 {SKILL}Tier 2: spawns a football zombie right on it when planted
 {SHORTLINE}
@@ -950,7 +954,7 @@ Doom-shrooms destroy everything in a large area and leave a crater that can't be
 {NOCTURNAL}Sleeps during the day
 {SHORTLINE}
 {SKILL}removes any items there
-{SKILL}Tier 2: must be planted on graves，不会留下弹坑
+{SKILL}Tier 2: must be planted on graves, does not leave craters
 {SHORTLINE}
 {FLAVOR}"You're lucky I'm on your side," says Doom-shroom. "I could destroy everything you hold dear. It wouldn't be hard."
 
@@ -960,7 +964,7 @@ Lily pads let you plant non-aquatic plants on top of them.
 {KEYWORD}Special:{STAT} non-aquatic plants can be planted on top of it
 {AQUATIC}Must be planted in water
 {SHORTLINE}
-{SKILL}Tier 2: duplicate the plant on top into two seed packets，随后自身消失
+{SKILL}Tier 2: duplicate the plant on top into two seed packets, single-use
 {SHORTLINE}
 {FLAVOR}Lily Pad never complains. Lily Pad never wants to know what's going on. Put a plant on top of Lily Pad, 
 he won't say a thing. Does he have startling opinions or shocking secrets? Nobody knows. Lily Pad keeps it all inside.
@@ -982,7 +986,7 @@ Threepeaters shoot peas in three lanes.
 {KEYWORD}Range:{STAT} three lanes
 {SHORTLINE}
 {SKILL}Tier 1: fires an extra pea in the middle if planted on the top or bottom row
-{SKILL}2技能：点击或鼠标悬浮会获得一次性强化，再次强化会提升强化效果；连续10次攻击不强化后会衰退，子弹飞行距离变短，再次强化可以恢复
+{SKILL}Tier 2: clicking or hovering on the threepeaters boost them, the boost lasts for 10 attacks, unboosted threepeaters have slower projectile speed
 {SHORTLINE}
 {FLAVOR}Threepeater likes reading, backgammon and long periods of immobility in the park. Threepeater enjoys 
 going to shows, particularly modern jazz. "I'm just looking for that special someone," he says. Threepeater's favorite number is 5.
@@ -1028,7 +1032,7 @@ Torchwoods turn peas that pass through them into fireballs that deal twice as mu
 {SHORTLINE}
 {KEYWORD}Special:{STAT} doubles the damage of peas that pass through it.  Fireballs deal damage to nearby zombies on impact
 {SHORTLINE}
-{SKILL}Tier 1: bounces back zombies' peas, can enhance frozen peas和普通火焰豌豆
+{SKILL}Tier 1: bounces back zombies' peas, can enhance fireballs and frozen peas
 {SKILL}Tier 2: burns away any zombies that can go past it
 {SHORTLINE}
 {FLAVOR}Everybody likes and respects Torchwood. They like him for his integrity, for his steadfast friendship, 
@@ -1065,7 +1069,7 @@ Planterns light up an area, letting you see through fog.
 {KEYWORD}Special:{STAT} lets you see through fog
 {SHORTLINE}
 {SKILL}Tier 1: produces 3 suns
-{SKILL}Tier 2: Inflicts a special effect on certain zombies, including: pole vaulter, newspaper zombie, dancing zombie, dolphin rider, jack-in-the-box, flyer, miner, bungee, catapult zombie, peashooter zombotany和机枪射手僵尸
+{SKILL}Tier 2: Inflicts a special effect on certain zombies, including: pole vaulter, newspaper zombie, dancing zombie, dolphin rider, jack-in-the-box, flyer, miner, bungee, catapult zombie, peashooter and gatling pea zombotany
 {SHORTLINE}
 {FLAVOR}Plantern defies science. He just does. Other plants eat light and excrete oxygen; Plantern eats 
 darkness and excretes light. Plantern's cagey about how he does it. "I'm not gonna say 'sorcery,' I 
@@ -1089,8 +1093,9 @@ Blovers blow away all balloon zombies and fog.
 {KEYWORD}Usage:{STAT} single use, instant
 {KEYWORD}Special:{STAT} blows away all balloon zombies
 {SHORTLINE}
-{SKILL}1技能：吹走没有防具体型较轻的僵尸和迷雾，对无法吹走的僵尸造成伤害；部分僵尸免疫本效果
-{SKILL}2技能：将下一波僵尸的刷新推迟一段时间，并使本波次的僵尸血量较低时的强制刷新不再生效
+{SKILL}Tier 1: blows away all lightweight zombies and fog, deals damage to those that weren't blown away
+{SKILL}Tier 2: delay the next wave of zombies, preventing the next wave to spawn even if the zombie health threshold is reached
+
 {SHORTLINE}
 {FLAVOR}When Blover was five he got a shiny new birthday cake. Blover made his wish, huffed and puffed, 
 but was able to extinguish only 60% of the candles. Instead of giving up, though, he's used that early 
@@ -1157,7 +1162,7 @@ Flower Pots let you plant on the roof.
 {SHORTLINE}
 {KEYWORD}Special:{STAT} allows you to plant on the roof
 {SHORTLINE}
-{SKILL}2技能：种下去后会根据场上敌人数量返还阳光
+{SKILL}Tier 2: gives sun based on howe many zombies there are
 {SHORTLINE}
 {FLAVOR}"I'm a pot for planting. Yet I'm also a plant. HAS YOUR MIND EXPLODED YET?"
 
@@ -1168,7 +1173,7 @@ Kernel-pults fling corn kernels and butter at zombies.
 {KEYWORD}Special:{STAT} butter immobilizes zombies
 {SHORTLINE}
 {SKILL}Tier 1: guaruntees a butter after flinging 3 kernels
-{SKILL}Tier 2: firing rate decrease, flings 4 butters or a corn cob, goes on a cooldown if a corn cob is flung；可以攻击气球僵尸
+{SKILL}Tier 2: firing rate decrease, flings 4 butters or a corn cob, goes on a cooldown if a corn cob is flung, can attack balloon zombies
 {SHORTLINE}
 {FLAVOR}Kernel-Pult is the eldest of the Pult brothers. Of the three of them, Kernel is the only one 
 who consistently remembers the others' birthdays. He bugs them about it a little, too.
@@ -1212,7 +1217,7 @@ popping up to protect stuff around me. Yeah. Just like that. EXACTLY like that. 
 [MARIGOLD_DESCRIPTION]
 Marigolds give you silver and gold coins.
 {SHORTLINE}
-{KEYWORD}Special:{STAT} 提供各种增益
+{KEYWORD}Special:{STAT} gives various benefits
 {SHORTLINE}
 {SKILL}Tier 1: does different abilities based on the situation, then dissappears
 {SKILL}Tier 2: duplicates seed slot with separate recharge (currently not implemented)
@@ -1253,62 +1258,45 @@ Rhododendron Magnificums boost the strength of nearby plants
 {SKILL}Tier 1: gives nearby plants a moderate damage boost, can stack up to 5 times
 {SKILL}Tier 2: TBA (currently not implemented)
 {SHORTLINE}
-{FLAVOR}强壮杜鹃乐于用馥郁的花香鼓舞战友，但它拒绝无限制地施加力量。“适度变强就好”，它说，“把僵尸直接炸出草坪太不优雅了。”
-
-[SPEEDWALL_DESCRIPTION_HEADER]
-双身草能切换两种攻击模式
+Rhododendron Magnificum loves to inspire its comrades with its rich, heady fragrance, but it refuses to hand out power without limits. 
+"Getting moderately stronger is enough," it says. "Blasting zombies clean off the lawn is just too inelegant."
 
 [SPEEDWALL_DESCRIPTION]
+Speedwalls can swtch between two attacks modes
 {SHORTLINE}
-{KEYWORD}特点：{STAT}根据僵尸距离进行远程发射或近战攻击，远程发射的头死亡之后只能近战攻击
+{KEYWORD}Special: {STAT}Use melee or ranged attack based on the distance of the zombies, once its head is lost, it can only do melee attacks
 {SHORTLINE}
-{SKILL}1技能：根据损失的血量提升近战攻击的能力，远程头死亡之后失去该能力；击杀敌人会叠加远程头的免伤能力
-{SKILL}该植物暂未实装2技能
+{SKILL}Tier 1: melee attacks deal more damage the less health it has; lose this ability once its ranged head is lost, defeating enemies stacks damage reduction for the ranged head (?)
+{SKILL}Tier 2: TBA (currently not implemented)
 {SHORTLINE}
-{FLAVOR}征集小故事中······
-
-[FIRE_SHROOM_DESCRIPTION_HEADER]
-火蘑菇操作火焰攻击敌人
+{FLAVOR}To be added...
 
 [FIRE_SHROOM_DESCRIPTION]
+Fire-shroom burns the enemies with fire
 {SHORTLINE}
-{KEYWORD}特点：{STAT}发射火焰到僵尸附近造成伤害
+{KEYWORD}Special: Launches flames near zombies to deal damage
 {SHORTLINE}
-{SKILL}1技能：花费时间将火焰移动到敌人附近造成范围持续伤害，火焰上方没有敌人时收回火焰
-{SKILL}2技能：持续追踪前方最近的敌人附近造成较高的单体持续伤害
+{SKILL}Tier 1: spread fires next to enemies, dealing area damage over time, retracts the flames when there are no enemies around
+{SKILL}Tier 2: continuously tracks the nearest enemy ahead, dealing high single-target damage over time near it
 {SHORTLINE}
-{FLAVOR}征集小故事中······
-
-[FIRE_SHROOM_DESCRIPTION_HEADER]
-火蘑菇操作火焰攻击敌人
-
-[FIRE_SHROOM_DESCRIPTION]
-{SHORTLINE}
-{KEYWORD}特点：{STAT}发射火焰到僵尸附近造成伤害
-{SHORTLINE}
-{SKILL}1技能：花费时间将火焰移动到敌人附近造成范围持续伤害，火焰上方没有敌人时收回火焰
-{SKILL}2技能：持续追踪前方最近的敌人附近造成较高的单体持续伤害
-{SHORTLINE}
-{FLAVOR}征集小故事中······
-
-[FIRMACIST_DESCRIPTION_HEADER]
-冷杉可以扔出果实使敌人中毒
+{FLAVOR}To be added...
 
 [FIRMACIST_DESCRIPTION]
+Firmacists throw poisonous fruits at the enemy,
 {SHORTLINE}
-{SKILL}攻击间隔较长，攻击使敌人获得一层中毒并施加一种毒性增强的效果（最多同时持有一种），在没有敌人时会向地上投掷果实，果实砸到地板上会生成使敌人同时受到所有毒性增强效果的区域
-{SKILL}1技能：瞄准区域上的敌人时攻击间隔缩短
-{SKILL}2技能：攻击使敌人额外获得一层中毒，优先选择不处于中毒状态下的目标，毒性增强效果减弱，但毒发扩散效果提高
+{SKILL}Has a long attack interval, each attack inflicts one stack of poison on an enemy and applies a poison-enhancing effect (only one can be held at a time), when there are no enemies, it throws fruits onto the ground, a fruit that lands creates an area where enemies receive all poison-enhancing effects at once (?)
+{SKILL}Tier 1: attack interval is shortened when aiming at enemies in the target area (?)
+{SKILL}Tier 2: attacks inflict an extra stack of poison and prioritize targets that are not already poisoned, poison-enhancing effects are weaker, but the poison's spread effect is stronger (?)
 {SHORTLINE}
-{FLAVOR}征集小故事中······
+{FLAVOR}To be added...
 
 [GATLING_PEA_DESCRIPTION]
 Gatling Peas shoot four peas at a time.
 {SHORTLINE}
-{KEYWORD}Must be planted on 相同技能的 repeaters
+{KEYWORD}Must be planted on repeaters of the corresponding tier
 {SHORTLINE}
-{SKILL}1技能：有概率额外发射4颗豌豆
-{SKILL}2技能：发射的子弹飞行一段时间后会爆开，随后聚拢再往前飞；爆开的时候穿透敌人
+{SKILL}Tier 1: sometimes fire 4 additional peas
+{SKILL}Tier 2: peas scattered out after some time, then regroup and continue forward; scattered peas penetrate the enemies
 {SHORTLINE}
 {FLAVOR}Gatling Pea's parents were concerned when he announced his intention to join the military. 
 "But honey, it's so dangerous!" they said in unison. Gatling Pea refused to budge. "Life is dangerous," 
@@ -1326,10 +1314,10 @@ But to no avail. Twin Sunflower was alive, ALIVE!
 [GLOOM_SHROOM_DESCRIPTION]
 Gloom-shrooms release heavy fumes in an area around themselves.
 {SHORTLINE}
-{KEYWORD}Must be planted on 相同技能的 fume-shrooms
+{KEYWORD}Must be planted on fume-shrooms of the corresponding tier
 {SHORTLINE}
-{SKILL}1技能：每次攻击发射4次5*3范围的烟雾
-{SKILL}2技能：每次攻击发射2次3*3范围的减速烟雾，每4次攻击生成3只魅惑小鬼僵尸
+{SKILL}Tier 1: releases 4 fumes in a 5-by-3 area around itself
+{SKILL}Tier 2: release 2 fumes that slow the enemies in a 3-by-3 area around itself, spawns 3 hypnotized imps every 4th attack
 {SHORTLINE}
 {FLAVOR}"I've always enjoyed releasing heavy fumes," says Gloom Shroom. "I know a lot of people aren't 
 cool with that. They say it's rude or that it smells bad. All I can say is, would you rather have your 
@@ -1350,10 +1338,10 @@ Winter Melons do heavy damage and slow groups of zombies.
 {KEYWORD}Range:{STAT} lobbed
 {KEYWORD}Firing Speed:{STAT} 1/2x
 {KEYWORD}Special:{STAT} melons damage and freeze nearby enemies on impact
-{KEYWORD}Must be planted on 相同技能的 melon-pults
+{KEYWORD}Must be planted on melon-pults of the corresponding tier
 {SHORTLINE}
-{SKILL}该植物暂未实装1技能的额外效果
-{SKILL}2技能：每次攻击发射2颗冰西瓜，分别瞄准最前方和最后方的僵尸
+{SKILL}TBA (currently not implemented)
+{SKILL}Tier 2: lobs 2 winter melons, one targeting frontmost and one targeting backmost zombies
 {SHORTLINE}
 {FLAVOR}Winter Melon tries to calm his nerves. He hears the zombies approach. Will he make it? Will anyone make it?
 
