@@ -1383,7 +1383,7 @@ Regular Garden-variety Zombie
 {SHORTLINE}
 {KEYWORD}Toughness:{STAT} low {270}
 {SHORTLINE}
-{SKILL}默认模式(M1)：拥有百变掉头特效
+{SKILL}Normal Mode (M1): Has a shape-shifting zombotany effect (?)
 {SHORTLINE}
 {FLAVOR}This zombie loves brains. Can't get enough. Brains, brains, brains, day in and night out. 
 Old and stinky brains? Rotten brains? Brains clearly past their prime? Doesn't matter. Regular zombie wants 'em. 
@@ -1393,9 +1393,9 @@ Flag Zombie marks the arrival of a huge pile or "wave" of zombies.
 {SHORTLINE}
 {KEYWORD}Toughness:{STAT} low {270}
 {SHORTLINE}
-{SKILL}简单模式(N)：尸体不会倒地
-{SKILL}默认模式(M1)：暂无
-{SKILL}较难模式(M2)：会将僵尸向前踢
+{SKILL}Simple Mode (N): keeps walking after head dropped
+{SKILL}Normal Mode (M1): none yet
+{SKILL}Hard Mode (M2): knocks zombies forward
 {SHORTLINE}
 {FLAVOR}Make no mistake, Flag Zombie loves brains. But somewhere down the line he also picked 
 up a fascination with flags. Maybe it's because the flags always have brains on them. Hard to say.
@@ -1405,8 +1405,8 @@ His traffic cone headpiece makes him twice as tough as normal zombies.
 {SHORTLINE}
 {KEYWORD}Toughness:{STAT} medium {670}
 {SHORTLINE}
-{SKILL}默认模式(M1)：帽子掉落时戴上豌豆头
-{SKILL}较难模式(M2)：帽子掉落时换行
+{SKILL}Normal Mode (M1): becomes peashooter zombotany after losing cones
+{SKILL}Hard Mode (M2): switches lanes after losing cones
 {SHORTLINE}
 {FLAVOR}Conehead Zombie shuffled mindlessly forward like every other zombie.
 But something made him stop, made him pick up a traffic cone and stick it on his head. Oh yeah. He likes to party.
@@ -1417,8 +1417,8 @@ His bucket hat makes him extremely resistant to damage.
 {KEYWORD}Toughness:{STAT} high {1470}
 {KEYMETAL}Weakness:{NOMETAL} ???{METAL} magnet-shroom
 {SHORTLINE}
-{SKILL}默认模式(M1)：帽子掉落时戴上辣椒头
-{SKILL}较难模式(M2)：帽子损伤或掉落时换行
+{SKILL}Normal Mode (M1): becomes jalapeno zombotany after losing buckets
+{SKILL}Hard Mode (M2): switches lanes after losing buckets or when buckets degrade
 {SHORTLINE}
 {FLAVOR}Buckethead Zombie always wore a bucket. Part of it was to assert his uniqueness 
 in an uncaring world. Mostly he just forgot it was there in the first place.
@@ -1430,8 +1430,8 @@ Pole Vaulting Zombie vaults with a pole.
 {KEYWORD}Speed:{STAT} fast, then normal (after jump)
 {KEYWORD}Special:{STAT} jumps the first plant he runs into
 {SHORTLINE}
-{SKILL}默认模式(M1)：越过的敌方单位扣除一定的血量
-{SKILL}较难模式(M2)：不断跳跃，直到落点位置有植物
+{SKILL}Normal Mode (M1): damages plants he vaults over
+{SKILL}Hard Mode (M2): only stops vaulting when he lands on a plant
 {SHORTLINE}
 {FLAVOR}Some zombies take it further, aspire more, push themselves beyond the 
 normal into greatness. That's Pole Vaulting Zombie right there. That is so him.
@@ -1443,9 +1443,9 @@ His newspaper provides limited defense.
 {KEYWORD}Newspaper Toughness:{STAT} medium {400}
 {KEYWORD}Speed:{STAT} normal, then fast (after losing newspaper)
 {SHORTLINE}
-{SKILL}简单模式(N)：拥有报纸时尸体不会倒地
-{SKILL}默认模式(M1)：失去报纸之后，在疯狂前进和不断换行之间来回切换
-{SKILL}较难模式(M2)：失去报纸之后转身后退，离开场地之后在所在行召唤一个旗帜僵尸
+{SKILL}Simple Mode (N): keeps walking after head dropped if he still has the newspaper
+{SKILL}Normal Mode (M1): after losing newspaper, switch between running and switching lanes
+{SKILL}Hard Mode (M2): after losing newspaper, retreats, if successful, calls a flag zombie
 {SHORTLINE}
 {FLAVOR}Newspaper Zombie was *this* close to finishing his sudoku puzzle. No wonder he's freaking out.
 
@@ -1457,8 +1457,8 @@ His screen door is an effective shield.
 {KEYWORD}Weakness:{STAT} fume-shroom{METAL} and magnet-shroom
 {SHORTLINE}
 {SKILL}受伤时会加速
-{SKILL}默认模式(M1)：铁门掉落时将其留在场上
-{SKILL}较难模式(M2)：铁门掉落时将铁门附身在植物上，对应植物死亡时在植物所在位置复活，复活后不再拥有本能力
+{SKILL}Normal Mode (M1): puts a screendoor on the lawn after losing screendoors
+{SKILL}Hard Mode (M2): possesses a plant after losing screendoors, when that plant dies, revives himself there, once
 {SHORTLINE}
 {FLAVOR}He got his screen door from the last inexpertly defended home he visited, after he ATE THE HOMEOWNER'S BRAINS.
 
@@ -1469,9 +1469,9 @@ Football Zombie makes the big plays.
 {KEYWORD}Speed:{STAT} fast
 {KEYMETAL}Weakness:{NOMETAL} ???{METAL} magnet-shroom
 {SHORTLINE}
-{SKILL}简单模式(N)：濒死时向前闪现一段距离
-{SKILL}默认模式(M1)：强度改为1470，跑步速度变快，给路过的僵尸戴上铁桶
-{SKILL}较难模式(M2)：强度改为2070，啃食造成3*3范围伤害
+{SKILL}Simple Mode (N): flashes forward a bit when near death
+{SKILL}Normal Mode (M1): toughness becomes 1470, becomes faster, gives buckets to zombies he pass by
+{SKILL}Hard Mode (M2): toughness becomes 2070, bites in 3-by-3 area
 {SHORTLINE}
 {FLAVOR}Football Zombie gives 110 percent whenever he's on the field. He's a team player 
 who delivers both offensively and defensively. He has no idea what a football is.
@@ -1482,9 +1482,9 @@ Any resemblance between Dancing Zombie and persons living or dead is purely coin
 {KEYWORD}Toughness:{STAT} medium {750}
 {KEYWORD}Special:{STAT} summons back-up dancers
 {SHORTLINE}
-{SKILL}简单模式(N)：召唤伴舞僵尸时会回血，血量没有上限
-{SKILL}默认模式(M1)：摆手时向植物投掷伴舞头部
-{SKILL}较难模式(M2)：会召唤分身舞王，分身舞王召唤伴舞僵尸
+{SKILL}Simple Mode (N): restores some toughness when summoning back-up dancers, with no toughness cap
+{SKILL}Normal Mode (M1): when summoning back-up dancers, through zombie heads at plants
+{SKILL}Hard Mode (M2): summons more dancing zombies, that then summon back-up dancers
 {SHORTLINE}
 {FLAVOR}Dancing Zombie's latest album, "GrarrBRAINSarblarbl," is already rocketing up the undead charts.
 
@@ -1493,7 +1493,7 @@ These zombies appear in sets of four whenever Dancing Zombie rocks out.
 {SHORTLINE}
 {KEYWORD}Toughness:{STAT} low {270}
 {SHORTLINE}
-{SKILL}默认模式(M1)：受伤时会在显形和隐形之间切换
+{SKILL}Normal Mode (M1): switches between visible and invisible when hurt
 {SHORTLINE}
 {FLAVOR}Backup Dancer Zombie spent six years perfecting his art at the Chewliard 
 Performing Arts School in Zombie New York City.
@@ -1504,7 +1504,7 @@ The ducky tube allows this zombie to float on water.
 {KEYWORD}Toughness:{STAT} low {270}
 {AQUATIC}Only appears in the pool
 {SHORTLINE}
-{SKILL}较难模式(M2)：死亡时有概率掉落救生圈，救生圈被僵尸经过会召唤珊瑚
+{SKILL}Hard Mode (M2): sometimes drop a ducky tube when defeated, which summons a coral ambush when a zombie passes it
 {SHORTLINE}
 {FLAVOR}It takes a certain kind of zombie to be a Ducky Tuber. Not every zombie can handle it. 
 Some crack. They can't take it. They walk away and give up on brains forever.
@@ -1516,8 +1516,8 @@ Snorkel zombies can swim underwater.
 {KEYWORD}Special:{STAT} submerges to avoid attacks
 {AQUATIC}Only appears in the pool
 {SHORTLINE}
-{SKILL}默认模式(M1)：受到较高伤害(大于等于60)后会进入一段时间的无敌
-{SKILL}较难模式(M2)：经过救生圈召唤珊瑚时不会使救生圈消失
+{SKILL}Normal Mode (M1): after taking high damage (over 60), becomes invincible for a bit
+{SKILL}Hard Mode (M2): ducky tubes don't disappear when snorkel zombies pass them 
 {SHORTLINE}
 {FLAVOR}Zombies don't breathe. They don't need air. So why does Snorkel Zombie need a snorkel to swim underwater?{KEYWORD}
 {FLAVOR}Answer: peer pressure.
@@ -1528,9 +1528,9 @@ The Zomboni applies ice, steam and pressure to your plants.
 {KEYWORD}Toughness:{STAT} high {1500}
 {KEYWORD}Special:{STAT} crushes plants, leaves an ice trail
 {SHORTLINE}
-{SKILL}简单模式(N)：受到伤害时向前突进极短距离
-{SKILL}默认模式(M1)：会在上中下三行留下冰道
-{SKILL}较难模式(M2)：过半场之后加速，会推动途径的僵尸向前
+{SKILL}Simple Mode (N): flashes forward a bit when taking damage
+{SKILL}Normal Mode (M1): leaves ice trails in 3 lanes
+{SKILL}Hard Mode (M2): push zombies in front forward, speeds up after passing half the lawn
 {SHORTLINE}
 {FLAVOR}Often mistaken for a zombie driving an ice machine, the Zomboni is a totally different life-form more closely related to a space ogre than a 
 zombie.
@@ -1542,7 +1542,7 @@ These zombies appear in teams of four.
 {KEYWORD}Bobsled Toughness:{STAT} low {300}
 {KEYWORD}Special:{STAT} only appears on ice
 {SHORTLINE}
-{SKILL}暂无技能
+{SKILL}All Modes: none yet
 {SHORTLINE}
 {FLAVOR}Zombie Bobsled Team worked hard to get where they are. They live together, eat brains 
 together and train together to become a cohesive zombie unit.
@@ -1555,8 +1555,8 @@ Dolphin Rider Zombies use dolphins to exploit weaknesses in your pool defense.
 {KEYWORD}Special:{STAT} jumps over the first plant he runs into
 {AQUATIC}Only appears in the pool
 {SHORTLINE}
-{SKILL}默认模式(M1)：改为三连跳
-{SKILL}较难模式(M2)：击杀跳跃过的植物并将其转化为救生圈
+{SKILL}Normal Mode (M1): jumps 3 times
+{SKILL}Hard Mode (M2): replaces the plants he jumps over into ducky tubes
 {SHORTLINE}
 {FLAVOR}The dolphin is also a zombie.
 
@@ -1566,7 +1566,7 @@ A rare and curious creature.
 {KEYWORD}Toughness:{STAT} medium {540}
 {KEYWORD}Special:{STAT} runs away after a short while
 {SHORTLINE}
-{SKILL}暂无技能
+{SKILL}All Modes: none yet
 {SHORTLINE}
 {FLAVOR}Little is known about the Zombie Yeti other than his name, birth date, social security number, 
 educational history, past work experience and sandwich preference (roast beef and Swiss).
@@ -1579,8 +1579,8 @@ This zombie carries an explosive surprise.
 {KEYWORD}Special:{STAT} jack-in-the-box explodes
 {KEYMETAL}Weakness:{NOMETAL} ???{METAL} magnet-shroom
 {SHORTLINE}
-{SKILL}默认模式(M1)：爆炸后有概率空降一个窝瓜僵尸
-{SKILL}较难模式(M2)：残血时必然爆炸，将周围的植物炸死后会在对应位置生成墓碑
+{SKILL}Normal Mode (M1): sometimes bungee ambush a squash zombie after exploding
+{SKILL}Hard Mode (M2): always explodes at low health, exploded plants leave a gravestone
 {SHORTLINE}
 {FLAVOR}This zombie shivers, not because he's cold but because he's crazy.
 
@@ -1589,10 +1589,10 @@ Balloon Zombie floats above the fray, immune to most attacks.
 {SHORTLINE}
 {KEYWORD}Toughness:{STAT} low {270}
 {KEYWORD}Special:{STAT} flying
-{KEYWORD}Weakness:{STAT}地刺2技能、路灯花2技能、仙人掌、三叶草1技能和玉米投手1技能
+{KEYWORD}Weakness:{STAT}tier 2 spikeweed, tier 2 plantern, cactus, tier 1 blover, and tier 1 kernel-pult
 {SHORTLINE}
-{SKILL}默认模式(M1)：落地一段时间之后会重新飞起来
-{SKILL}较难模式(M2)：会扔小丑盒，小丑盒可以被叶子保护伞弹飞
+{SKILL}Normal Mode (M1): takes flight again a while after landing
+{SKILL}Hard Mode (M2): drop jack-in-the-box zombies, can be countered by umbrella leaf
 {SHORTLINE}
 {FLAVOR}Balloon Zombie really lucked out. The balloon thing really works and 
 none of the other zombies have picked up on it.
@@ -1603,10 +1603,11 @@ This zombie digs to bypass your defenses.
 {KEYWORD}Toughness:{STAT} medium {570}
 {KEYWORD}Speed:{STAT} fast, then slow
 {KEYWORD}Special:{STAT} tunnels underground and appears on the left side of the lawn
-{KEYWORD}Weakness:{STAT} split pea、杨桃{METAL} and magnet-shroom{SHORTLINE}
-{SKILL}简单模式(N)：在地下时有概率生成时间短暂的弹坑
-{SKILL}默认模式(M1)：出土后向前走，经过攻击植物后会出土
-{SKILL}较难模式(M2)：不出土，在地下攻击植物，受到攻击的植物会被冻住
+{KEYWORD}Weakness:{STAT} split pea, starfuilt, {METAL} and magnet-shroom
+{SHORTLINE}
+{SKILL}Simple Mode (N): sometimes create pre-filled craters while digging
+{SKILL}Normal Mode (M1): walks forward after surfacing, and surfaces after attacking a plant it passes (?)
+{SKILL}Hard Mode (M2): does not surface by itself, attack plants while digging, attacked plants are frozen
 {SHORTLINE}
 {FLAVOR}Digger Zombie spends three days a week getting his excavation permits in order.
 
@@ -1617,9 +1618,9 @@ Pogo Zombie hops to bypass your defenses.
 {KEYWORD}Special:{STAT} hops over plants
 {KEYMETAL}Weakness:{NOMETAL} ???{METAL} magnet-shroom
 {SHORTLINE}
-{SKILL}简单模式(N)：受到伤害后换行
-{SKILL}默认模式(M1)：无法受到磁力草影响，跳过植物后失去跳杆并加速
-{SKILL}较难模式(M2)：拥有跳杆的时候快速漂移入场
+{SKILL}Simple Mode (N): switches lanes after taking damage
+{SKILL}Normal Mode (M1): unaffected by magnet-shroom, lose his pogo stick and speeds up after hopping over a plant
+{SKILL}Hard Mode (M2): drifts in quickly while he still has his pogo stick (?)
 {SHORTLINE}
 {FLAVOR}Sproing! Sproing! Sproing! That's the sound of a powerful and effective zombie doing what he does best.
 
@@ -1629,8 +1630,8 @@ Bungee Zombie attacks from above.
 {KEYWORD}Toughness:{STAT} medium {400}
 {KEYWORD}Special:{STAT} descends from the sky and steals a plant
 {SHORTLINE}
-{SKILL}默认模式(M1)：偷走一整格的植物，并向右平移出场
-{SKILL}较难模式(M2)：暂无
+{SKILL}Normal Mode (M1): steal all plants in a tile and exit to the right
+{SKILL}Hard Mode (M2): none yet
 {SHORTLINE}
 {FLAVOR}Bungee Zombie loves to take risks. After all, what's the point of being dead if you don't live a little?
 
@@ -1642,9 +1643,9 @@ Ladder Zombie climbs over obstacles.
 {KEYWORD}Speed:{STAT} fast, then slow (after placing ladder)
 {KEYWORD}Weakness:{STAT} fume-shroom{METAL} and magnet-shroom
 {SHORTLINE}
-{SKILL}简单模式(N)：被打掉扶梯时会将扶梯扔出去
-{SKILL}默认模式(M1)：会飞到植物后方攻击
-{SKILL}较难模式(M2)：放置扶梯之后转身后退，离开场地之后在所在行召唤一个旗帜僵尸
+{SKILL}Simple Mode (N): throw a ladder at plants after losing ladders
+{SKILL}Normal Mode (M1): appears on the left side of the lawn 
+{SKILL}Hard Mode (M2): after placing a ladder, retreats, if successful, calls a flag zombie
 {SHORTLINE}
 {FLAVOR}He picked the ladder up for $8.99.
 
@@ -1654,9 +1655,9 @@ Catapult Zombie operates heavy machinery.
 {KEYWORD}Toughness:{STAT} high {1800}
 {KEYWORD}Special:{STAT} lobs basketballs at your plants
 {SHORTLINE}
-{SKILL}受到攻击时会加快投掷
-{SKILL}默认模式(M1)：改为无限投掷小鬼，投掷一段时间后前进
-{SKILL}较难模式(M2)：只会投掷4个篮球，随后快速前进
+{SKILL} lobs faster when hurt
+{SKILL}Normal Mode (M1): lobs imps instead
+{SKILL}Hard Mode (M2): only lobs 4 catapults before driving forward
 {SHORTLINE}
 {FLAVOR}Of all the things Catapult Zombie could launch with his catapult, basketballs seemed 
 like the best and most obvious choice.
@@ -1666,8 +1667,8 @@ Gargantuar is a gigantic zombie.
 {SHORTLINE}
 {KEYWORD}Toughness:{STAT} extremely high {4500}
 {SHORTLINE}
-{SKILL}默认模式(M1)：把植物砸死之后将其变为友军为自己作战
-{SKILL}较难模式(M2)：残血时会将自己扔出去
+{SKILL}Normal Mode (M1): smashed plants becomes zombotanies
+{SKILL}Hard Mode (M2): throws himself at low health
 {SHORTLINE}
 {FLAVOR}When Gargantuar walks, the earth trembles. When he moans, other zombies fall silent.
 He is the zombie other zombies dream they could be. But he still can't find a girlfriend. 
@@ -1675,9 +1676,9 @@ He is the zombie other zombies dream they could be. But he still can't find a gi
 [IMP_DESCRIPTION]
 Imps are tiny zombies hurled by Gargantuar deep into your defenses.
 {SHORTLINE}
-{KEYWORD}Toughness:{STAT} low {270}/在我是僵尸模式：{STAT}极低 {70}
+{KEYWORD}Toughness:{STAT} low {270}/in I, Zombie: {STAT}extremely low {70}
 {SHORTLINE}
-{SKILL}默认模式(M1)：会一直摇摆前进
+{SKILL}Normal Mode (M1): keeps switching lanes (?)
 {SHORTLINE}
 {FLAVOR}Imp may be small, but he's wiry. He's proficient in zombie judo, zombie karate 
 and zombie bare-knuckle brawling. He also plays the melodica.
