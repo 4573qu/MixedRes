@@ -1385,6 +1385,8 @@ Regular Garden-variety Zombie
 {KEYWORD}Toughness:{STAT} low {270}
 {SHORTLINE}
 {SKILL}Normal Mode (M1): Has a shape-shifting zombotany effect (?)
+{SKILL}困难变种1：变成寒冰菇僵尸，冻结植物
+{SKILL}困难变种2：变成毁灭菇僵尸，炸毁植物
 {SHORTLINE}
 {FLAVOR}This zombie loves brains. Can't get enough. Brains, brains, brains, day in and night out. 
 Old and stinky brains? Rotten brains? Brains clearly past their prime? Doesn't matter. Regular zombie wants 'em. 
@@ -1420,6 +1422,8 @@ His bucket hat makes him extremely resistant to damage.
 {SHORTLINE}
 {SKILL}Normal Mode (M1): becomes jalapeno zombotany after losing buckets
 {SKILL}Hard Mode (M2): switches lanes after losing buckets or when buckets degrade
+{SKILL}困难变种1：血量较高，帽子掉落后倒地并停止前进
+{SKILL}困难变种2：头戴大嘴花啃咬植物造成群体攻击
 {SHORTLINE}
 {FLAVOR}Buckethead Zombie always wore a bucket. Part of it was to assert his uniqueness 
 in an uncaring world. Mostly he just forgot it was there in the first place.
@@ -1433,6 +1437,8 @@ Pole Vaulting Zombie vaults with a pole.
 {SHORTLINE}
 {SKILL}Normal Mode (M1): damages plants he vaults over
 {SKILL}Hard Mode (M2): only stops vaulting when he lands on a plant
+{SKILL}困难变种1：跳跃时分裂成2个撑杆僵尸
+{SKILL}困难变种2：跳跃时失去一部分撑杆，跳跃较高的植物失去更多
 {SHORTLINE}
 {FLAVOR}Some zombies take it further, aspire more, push themselves beyond the 
 normal into greatness. That's Pole Vaulting Zombie right there. That is so him.
@@ -1659,6 +1665,8 @@ Catapult Zombie operates heavy machinery.
 {SKILL} lobs faster when hurt
 {SKILL}Normal Mode (M1): lobs imps instead
 {SKILL}Hard Mode (M2): only lobs 4 catapults before driving forward
+{SKILL}困难变种1：同时瞄准本行最后方和最前方的植物投掷
+{SKILL}困难变种2：每次连续投掷5次
 {SHORTLINE}
 {FLAVOR}Of all the things Catapult Zombie could launch with his catapult, basketballs seemed 
 like the best and most obvious choice.
