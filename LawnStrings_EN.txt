@@ -187,6 +187,7 @@ Lets you plant non-aquatic plants on top of it
 
 [LILY_PAD_TOOLTIP2]
 Lets you duplicate a non-aquatic plant on top of it
+对冒险模式(邪恶)掉落的卡牌不生效
 
 [SQUASH]
 Squash
@@ -964,7 +965,7 @@ Lily pads let you plant non-aquatic plants on top of them.
 {KEYWORD}Special:{STAT} non-aquatic plants can be planted on top of it
 {AQUATIC}Must be planted in water
 {SHORTLINE}
-{SKILL}Tier 2: duplicate the plant on top into two seed packets, single-use
+{SKILL}Tier 2: duplicate the plant on top into two seed packets, single-use;不对冒险模式(邪恶)掉落的卡牌生效
 {SHORTLINE}
 {FLAVOR}Lily Pad never complains. Lily Pad never wants to know what's going on. Put a plant on top of Lily Pad, 
 he won't say a thing. Does he have startling opinions or shocking secrets? Nobody knows. Lily Pad keeps it all inside.
