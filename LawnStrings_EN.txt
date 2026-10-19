@@ -187,7 +187,7 @@ Lets you plant non-aquatic plants on top of it
 
 [LILY_PAD_TOOLTIP2]
 Lets you duplicate a non-aquatic plant on top of it
-对冒险模式(邪恶)掉落的卡牌不生效
+Does not work in adventure mode (evil)
 
 [SQUASH]
 Squash
@@ -965,7 +965,7 @@ Lily pads let you plant non-aquatic plants on top of them.
 {KEYWORD}Special:{STAT} non-aquatic plants can be planted on top of it
 {AQUATIC}Must be planted in water
 {SHORTLINE}
-{SKILL}Tier 2: duplicate the plant on top into two seed packets, single-use;不对冒险模式(邪恶)掉落的卡牌生效
+{SKILL}Tier 2: duplicate the plant on top into two seed packets, single-use; does not work in adventure mode (evil)
 {SHORTLINE}
 {FLAVOR}Lily Pad never complains. Lily Pad never wants to know what's going on. Put a plant on top of Lily Pad, 
 he won't say a thing. Does he have startling opinions or shocking secrets? Nobody knows. Lily Pad keeps it all inside.
@@ -1385,8 +1385,8 @@ Regular Garden-variety Zombie
 {KEYWORD}Toughness:{STAT} low {270}
 {SHORTLINE}
 {SKILL}Normal Mode (M1): Has a shape-shifting zombotany effect (?)
-{SKILL}困难变种1：变成寒冰菇僵尸，冻结植物
-{SKILL}困难变种2：变成毁灭菇僵尸，炸毁植物
+{SKILL}Hard Variant 1: becomes ice-shroom zombotany that can freeze plants
+{SKILL}Hard Variant 2: becomes doom-shroom zombotany that can blow up plants
 {SHORTLINE}
 {FLAVOR}This zombie loves brains. Can't get enough. Brains, brains, brains, day in and night out. 
 Old and stinky brains? Rotten brains? Brains clearly past their prime? Doesn't matter. Regular zombie wants 'em. 
@@ -1422,8 +1422,8 @@ His bucket hat makes him extremely resistant to damage.
 {SHORTLINE}
 {SKILL}Normal Mode (M1): becomes jalapeno zombotany after losing buckets
 {SKILL}Hard Mode (M2): switches lanes after losing buckets or when buckets degrade
-{SKILL}困难变种1：血量较高，帽子掉落后倒地并停止前进
-{SKILL}困难变种2：头戴大嘴花啃咬植物造成群体攻击
+{SKILL}Hard Variant 1: has high health, but stops moving after losing buckets
+{SKILL}Hard Variant 2: carries a chomper that deals damage in an area 
 {SHORTLINE}
 {FLAVOR}Buckethead Zombie always wore a bucket. Part of it was to assert his uniqueness 
 in an uncaring world. Mostly he just forgot it was there in the first place.
@@ -1437,8 +1437,8 @@ Pole Vaulting Zombie vaults with a pole.
 {SHORTLINE}
 {SKILL}Normal Mode (M1): damages plants he vaults over
 {SKILL}Hard Mode (M2): only stops vaulting when he lands on a plant
-{SKILL}困难变种1：跳跃时分裂成2个撑杆僵尸
-{SKILL}困难变种2：跳跃时失去一部分撑杆，跳跃较高的植物失去更多
+{SKILL}Hard Variant 1: splits into two pole vaulting zombies after vaulting
+{SKILL}Hard Variant 2: loses part of the pole after vaulting, and loses more after vaulting over taller plants
 {SHORTLINE}
 {FLAVOR}Some zombies take it further, aspire more, push themselves beyond the 
 normal into greatness. That's Pole Vaulting Zombie right there. That is so him.
@@ -1664,9 +1664,9 @@ Catapult Zombie operates heavy machinery.
 {SHORTLINE}
 {SKILL} lobs faster when hurt
 {SKILL}Normal Mode (M1): lobs imps instead
-{SKILL}Hard Mode (M2): only lobs 4 catapults before driving forward
-{SKILL}困难变种1：同时瞄准本行最后方和最前方的植物投掷
-{SKILL}困难变种2：每次连续投掷5次
+{SKILL}Hard Mode (M2): only lobs 4 basketballs before driving forward
+{SKILL}Hard Variant 1: lobs basketballs at both frontmost and backmost plants
+{SKILL}Hard Variant 2: lobs 5 basketballs at a time
 {SHORTLINE}
 {FLAVOR}Of all the things Catapult Zombie could launch with his catapult, basketballs seemed 
 like the best and most obvious choice.
@@ -1695,7 +1695,7 @@ and zombie bare-knuckle brawling. He also plays the melodica.
 [BOSS_DESCRIPTION]
 Dr. Zomboss rules them all.
 {SHORTLINE}
-{KEYWORD}Toughness (in Zombot shell):{STAT} extremely high {40000}/在复仇模式：{STAT}非常高 {60000}
+{KEYWORD}Toughness (in Zombot shell):{STAT} extremely high {40000}/Zomboss' Revenge:{STAT} extremely high {60000}
 {SHORTLINE}
 {FLAVOR}Edgar George Zomboss achieved his Doctorate in Thanatology in only two years. Quickly mastering 
 thanatological technology, he built his fearsome Zombot and set about establishing absolute dominance of his local subdivision.
@@ -3954,7 +3954,7 @@ Not enough money
 You can't afford this item yet. Earn more coins by killing zombies!
 
 [BUY_ITEM_HEADER]
-购买这一物品？
+Buy this item?
 
 [BUY_ITEM]
 Are you sure you want to buy this item?
@@ -4127,10 +4127,10 @@ Normal Mode (M1)
 Hard Mode (M2)
 
 [DIFFICULTY_PRESET_H3]
-Extreme Mode (H3)
+Ultimate Mode (H3)
 
 [DIFFICULTY_PRESET_M1H2]
-Harder Mode (M1H2)
+Insane Mode (M1H2)
 
 [DIFFICULTY_PRESET_M2H2]
 Expert Mode (M2H2)
@@ -4145,7 +4145,7 @@ Mixed Mode (M1+H3)
 Mixed Mode (M2+H3)
 
 [DIFFICULTY_PRESET_7]
-7-Level Challege Mode (7Mode)
+7-Challege Mode (7Mode)
 
 [PLEASE_CHOOSE_A_USER_PRESET]
 Please select a custom preset first.
